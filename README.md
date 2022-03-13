@@ -157,16 +157,3 @@ class MyBot(BotAI):
     async def on_start(self):
         self.client.game_step: int = 2
 ```
-
-## Community - Help and support
-
-You have questions but don't want to create an issue? Join the [Starcraft 2 AI Discord server](https://discordapp.com/invite/zXHU4wM) or [aiarena.net Discord server](https://discord.gg/yDBzbtC). Questions about this repository can be asked in text channel #python. There are discussions and questions about SC2 bot programming and this repository every day.
-
-## Bug reports, feature requests and ideas
-
-If you have any issues, ideas or feedback, please create [a new issue](https://github.com/BurnySc2/python-sc2/issues/new). Pull requests are also welcome!
-
-
-## Contributing & style guidelines
-
-Git commit messages use [imperative-style messages](https://stackoverflow.com/a/3580764/2867076), start with capital letter and do not have trailing commas.
